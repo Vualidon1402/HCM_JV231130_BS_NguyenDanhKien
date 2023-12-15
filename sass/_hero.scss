@@ -1,0 +1,30 @@
+.hero {
+  &-container {
+    position: relative;
+    background-color: rgb(163 161 161);
+  }
+  &-title {
+    font-family: "Whisper", cursive;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  &-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  &-button {
+    background-color: orange;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+  }
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+  }
+}
